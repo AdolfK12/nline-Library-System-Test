@@ -1,4 +1,4 @@
-const { Op } = require("sequelize"); // Impor Op dari Sequelize
+const { Op } = require("sequelize");
 
 module.exports = (sequelize, DataTypes) => {
   const Loan = sequelize.define(
